@@ -1,0 +1,82 @@
+.tartalom
+{
+background-color: lightblue;
+border: 2px solid grey;
+padding: 10px;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+p{
+    text-align: justify;
+}
+
+ul
+{
+list-style-type: none;
+text-align: left;
+padding: 10px;
+float: left;
+width: 100%;
+background-color: blue;
+color: yellow;
+}
+
+li
+{
+display: inline;
+padding-left: 40px;
+}
+
+#auto
+{
+float: right;
+width: 250px;
+}
+
+.kiemelt
+{
+color: red;
+font-weight: bold;
+}
+
+body
+{
+background-color: blue;
+}
+
+a
+{
+color: yellow;
+text-decoration: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left:250px;
+}
+
+.form-group{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+label{
+    width: 150px;
+}
+
+input{
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+button{
+    width: 100px;
+}
+
